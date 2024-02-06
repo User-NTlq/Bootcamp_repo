@@ -8,8 +8,6 @@ const myServer = http.createServer((req, res) => {
             break;
             case '/about': res.end("I am Spatika from Lumiq");
             break;
-            case '/contact-me': res.end("email: spatikaprusty@lumiq.ai");
-            break;
             default: res.end("404 Not Found");
         }
         // res.end("Server says Hello!");
