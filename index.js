@@ -6,7 +6,7 @@ const myServer = http.createServer((req, res) => {
         switch(req.url){
             case '/': res.end("Home ");
             break;
-            case '/about': res.end("I am Spatika");
+            case '/about': res.end("I am Spatika from Lumiq");
             break;
             case '/contact-me': res.end("email: spatikaprusty@lumiq.ai");
             break;
